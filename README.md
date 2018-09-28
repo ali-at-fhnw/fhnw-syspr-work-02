@@ -3,7 +3,7 @@
 Für Slides und Code Beispiele, siehe [Lektion 2](../../../fhnw-syspr/blob/master/02/README.md)
 
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
-> *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
+> *[Erstellen Sie eine persönliche Kopie, mit diesem GitHub Classroom Link](https://classroom.github.com/a/TODO).*
 
 ### a) Heap Struct, 20'
 * In [struct.c](https://github.com/tamberg/fhnw-syspr/blob/master/02/struct.c) wird ein Struct auf dem Stack alloziert, mit return zurückgegeben und dabei "by value" kopiert.
