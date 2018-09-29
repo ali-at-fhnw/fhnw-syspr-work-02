@@ -11,14 +11,14 @@ Für Slides und Code Beispiele, siehe [Lektion 2](../../../fhnw-syspr/blob/maste
     Point *create_point(int x, int y);</pre>
 * Passen Sie den restlichen Code entsprechend an, der Compiler gibt Ihnen dabei nützliche Hinweise.
 
-### b) Präprozessor Makros, 5'
+### b) Makros, 5'
 * Gegeben ein Makro:<pre>
     #define max(A, B) ((A) > (B) ? (A) : (B))</pre>
 * Und (separat) die Funktion:<pre>
     int max(int a, int b) { return a > b ? a : b; }</pre>
 * Was passiert beim folgenden Aufruf?<pre>
-    int i = 0, j = 3;
-    int m = max(i + 2, j);
+    int i = 1, j = 0;
+    int m = max(i++, j);
 * m<sub>Makro</sub> = ?, m<sub>Funktion</sub> = ?</pre>
 
 ### c) Kompilationsprozess, 20'
