@@ -11,7 +11,7 @@ Für Slides und Code Beispiele, siehe [Lektion 2](../../../fhnw-syspr/blob/maste
     Point *create_point(int x, int y);</pre>
 * Passen Sie den restlichen Code entsprechend an, der Compiler gibt Ihnen dabei nützliche Hinweise.
 
-### b) Makros, 5'
+### b) Makros (auf Papier), 5'
 * Gegeben ein Makro:<pre>
     #define max(A, B) ((A) > (B) ? (A) : (B))</pre>
 * Und (separat) die Funktion:<pre>
@@ -27,7 +27,7 @@ Für Slides und Code Beispiele, siehe [Lektion 2](../../../fhnw-syspr/blob/maste
     $ cpp my.c > my.i
     $ gcc -S my.i
     $ as -o my.o my.s
-    $ ld -o my my.o</pre>
+    $ ld -o my my.o …</pre>
 * Sehen Sie sich den Inhalt des jeweiligen Outputs an.
 * Versuchen Sie, den *ld* Schritt zum Laufen zu bringen.
 * Objekt- bzw. Binärdateien können Sie anzeigen mit:<pre>
