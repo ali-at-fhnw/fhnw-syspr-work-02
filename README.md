@@ -5,7 +5,7 @@ Für Slides und Code Beispiele, siehe [Lektion 2](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Erstellen Sie eine persönliche Kopie, mit diesem GitHub Classroom Link](https://classroom.github.com/a/49WFpHaD).*
 
-### a) Heap Struct, 20'
+### a) Heap Struct, 15'
 * In [struct.c](https://github.com/tamberg/fhnw-syspr/blob/master/02/struct.c) wird ein Struct auf dem Stack alloziert, mit return zurückgegeben und dabei "by value" kopiert.
 * Schreiben Sie ein Programm *my_struct_v2.c*, das für *create_struct* Pointer und [malloc](http://man7.org/linux/man-pages/man3/malloc.3.html) verwendet:<pre>
     Point *create_point(int x, int y);</pre>
@@ -21,20 +21,7 @@ Für Slides und Code Beispiele, siehe [Lektion 2](../../../fhnw-syspr/blob/maste
     int m = max(++i, j);
 * m<sub>Makro</sub> = ?, m<sub>Funktion</sub> = ?</pre>
 
-### c) Kompilationsprozess, 20'
-* Kompilieren Sie schrittweise mit *cpp*, *gcc*, *as* und *ld*:<pre>
-    $ echo "int main() {}" > my.c
-    $ cpp my.c > my.i
-    $ gcc -S my.i
-    $ as -o my.o my.s
-    $ ld -o my my.o …</pre>
-* Sehen Sie sich den Inhalt des jeweiligen Outputs an.
-* Versuchen Sie, den *ld* Schritt zum Laufen zu bringen.
-* Objekt- bzw. Binärdateien können Sie anzeigen mit:<pre>
-    $ objdump -x my.o
-    $ hexdump -C my</pre>
-
-### d) Kilo.c, 30'
+### c) Kilo.c, 15'
 * Analysieren Sie den Source Code dieses Programms:<pre>
     https://github.com/antirez/kilo/blob/master/kilo.c</pre>
 * Kompilieren Sie das Programm und benutzen Sie es.
